@@ -1,0 +1,23 @@
+# MLOps Pipeline
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.python-version
+venv/
+.env/
+.venv/
+data/raw/
+data/processed/
+data/interim/
+data/external/
+.ipynb_checkpoints
+.DS_Store
+Thumbs.db
+.dvc/
+*.dvc
+logs/
+*.log
+models/
+*.joblib
+*.pkl
