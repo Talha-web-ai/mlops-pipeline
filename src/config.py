@@ -1,12 +1,13 @@
-# src/config.py
+import os
 
-# Path to raw dataset
+# Paths for raw and processed data
 RAW_DATA_PATH = "data/raw/winequality-red.csv"
+PROCESSED_DATA_PATH = "data/processed/winequality-red.csv"
 
-# URL to download dataset if not found
+# (Optional) Dataset download URL if needed
 RAW_DATA_URL = "https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv"
 
-# Expected columns for validation
+# Columns expected in dataset
 EXPECTED_COLUMNS = [
     "fixed acidity", "volatile acidity", "citric acid", "residual sugar",
     "chlorides", "free sulfur dioxide", "total sulfur dioxide", "density",
