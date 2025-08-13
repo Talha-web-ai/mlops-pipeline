@@ -14,10 +14,7 @@ data/external/
 .ipynb_checkpoints
 .DS_Store
 Thumbs.db
-.dvc/
-*.dvc
 logs/
-*.log
-models/
-*.joblib
+*.logs
 *.pkl
+
